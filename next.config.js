@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {};
 
 if (process.env.NODE_ENV === 'development') {
